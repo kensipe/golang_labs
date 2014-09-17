@@ -4,7 +4,7 @@ In this lab you will do a very basic hello world example.  In order to do this l
 
 ## Steps
 
-### 1: make a project dir
+#### 1: make a project dir
 
 `mkdir hello`
 
@@ -12,16 +12,16 @@ In this lab you will do a very basic hello world example.  In order to do this l
 
 bin, src, pkg are the common base folders in the project directory.  At a minimum you will need to create the `src` folder
 
-3. set GOPATH
+#### 3: set GOPATH
 
 change directory to the project directory and set the GOPATH to the current dir
 export GOPATH=`pwd`
 
-4. create a package
+#### 4: create a package
 
 `mkdir -p src/acme.com/hello`
 
-5. edit hello.go
+#### 5: edit hello.go
 
 `vi src/acme.com/hello/hello.go`
 
@@ -32,10 +32,10 @@ func main() {
 
 ```
 
-6. install the package
+#### 6: install the package
 
 `go install acme.com/hello`
 
-7. execute the program
+#### 7: execute the program
 
 `./bin/hello`
