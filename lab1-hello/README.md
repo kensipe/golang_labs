@@ -26,10 +26,12 @@ export GOPATH=`pwd`
 `vi src/acme.com/hello/hello.go`
 
 ```
+package main
+
 func main() {
 	
 	fmt.Printf("Hello, world.\n")
-
+}
 ```
 
 #### 6: install the package
